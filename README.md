@@ -13,3 +13,6 @@ Brand
 
 ### carlist.py
 - This is the source code of the scrapper. It takes around 2hours++ to grab the info. The interval (0.5s) can be reduced to get faster results, but idk.
+
+### to-do
+- more car info related scraping.
