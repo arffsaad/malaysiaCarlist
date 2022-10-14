@@ -1,11 +1,21 @@
 # malaysiaCarlist
-Scraping list of cars from paultan's carbase website, useful for making requests to carbase to generate car market value and develop APIs for it.
+Scraping list of cars from paultan's carbase website and mycarinfo.my, useful for making requests to carbase to generate car market value and develop APIs for it.
 
-JSON Format:
+JSON Format (list v1, from Carbase.my):
 ```
 Brand
 - Model
   - Year of Manufacturing
+    - Engine CC
+      - Transmission
+        - Variant (Series)
+ ```
+
+JSON Format (list v2, from MyCarInfo.com.my):
+```
+Year of Manufacturing
+- Brand
+  - Model
     - Engine CC
       - Transmission
         - Variant (Series)
