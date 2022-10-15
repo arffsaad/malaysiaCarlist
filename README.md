@@ -1,7 +1,7 @@
 # malaysiaCarlist
 Scraping list of cars from paultan's carbase website and mycarinfo.my, useful for making requests to carbase to generate car market value and develop APIs for it.
 
-JSON Format (list v1, from Carbase.my):
+JSON Format (list v1, from Carbase.my [16541 Unique Car Variants]):
 ```
 Brand
 - Model
@@ -11,7 +11,7 @@ Brand
         - Variant (Series)
  ```
 
-JSON Format (list v2, from MyCarInfo.com.my):
+JSON Format (list v2, from MyCarInfo.com.my [16200 Unique Car Variants]):
 ```
 Year of Manufacturing
 - Brand
