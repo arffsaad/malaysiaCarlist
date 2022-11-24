@@ -22,7 +22,8 @@ Year of Manufacturing
  ```
 
 ### carlist.py
-- This is the source code of the scrapper. It takes around 2hours++ to grab the info. The interval (0.5s) can be reduced to get faster results, but idk.
+- This is the source code of the scrapper. It takes around 2hours++ to grab the info. The interval (0.5s) can be reduced to get faster results, but the current interval is good enough.
+Just run ``python3 carlist.py`` and it will scrape and save it to a json file.
 
 ### to-do
 - more car info related scraping.
